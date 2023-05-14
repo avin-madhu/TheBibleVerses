@@ -16,7 +16,7 @@ body{
     justify-content: center;
     display: flex;
     padding-bottom: 5%;
-    margin-top: 5%;
+    
 }
 
 
@@ -28,25 +28,49 @@ input::-webkit-inner-spin-button {
 
 #container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0px 40% 0px 40%;
+    margin: 0px 10% 0px 10%;
 
 }
 input{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 30px;
+    margin: 0px 20px 0px 20px;
+
 }
 
 label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#book{
+    padding: 10px;
+    width: 20%;
+}
+
+#verse{
+   margin-top: 20px;
+   padding: 10px;
+}
+
+#chapter{
+    padding: 10px;
+}
+
+#btn-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
 #verseCard{
-    margin-bottom: 20%;
-    margin: 5% 10% 20% 10%;
+
+    margin: 5% 10% 10% 10%;
     border: solid rgb(255, 255, 255);
     background-color: rgb(142, 197, 255,0.2);
 }
@@ -54,4 +78,36 @@ label{
 #fromText{
     padding-left: 70%;
 }
+
+@media (max-width: 768px) {
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20% 10% 0px 10%;
+    }
+
+    #numbers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #chapter{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    #verse{
+        padding: 10px;
+    }
+
+    #book{
+        width: 60%;
+    }
+
+  }
+  
 

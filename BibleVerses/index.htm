@@ -10,32 +10,35 @@
 </head>
 <body>
   
-    <h1 class="display-1" id="heading">Holy Bible</h1>
+   
 
- <div id="container">
-    <label for="book">Book:</label>
-    <input class="form-control" type="text" id="book">
 
-    <label for="chapter">Chapter:</label>
-    <input class="form-control" type="number" id="chapter">
+<section id="specific-verse">
+              <h1 class="display-1" id="heading">Holy Bible</h1>
 
-    <label for="verse">verse:</label>
-    <input class="form-control" type="number" id="verse">
- 
+    <div id="container">
+        
+        <input placeholder="book" class="form-control" type="text" id="book">
+        <div id="numbers">
+          <input placeholder="chapter" class="form-control" type="number" id="chapter">
+        <input placeholder="verse" class="form-control" type="number" id="verse">
+        </div>
 
-    <button class="btn btn-primary btn-lg" onclick="getMeVerse()">Submit</button>
-
-</div>
-
-<div id="verseCard" class="card">
-
-    <div class="card-body">
-      <blockquote class="blockquote mb-0">
-        <p id="verseText" ></p>
-        <footer id="fromText" class="blockquote-footer"></footer>
-      </blockquote>
     </div>
-  </div>
+
+        <button id="btn-id" class="btn btn-primary btn-lg" onclick="getMeVerse()">Submit</button>
+    
+
+    <div id="verseCard" class="card">
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p id="verseText" ></p>
+            <footer id="fromText" class="blockquote-footer"></footer>
+          </blockquote>
+        </div>
+    </div>
+
+  </section>
 
 <script src="script.js">
   
