@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    background-color: rgb(215, 241, 250);
+}
+
+#heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40% 0px 40%;
+
+}
+input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#verseCard{
+    margin-bottom: 20%;
+    margin: 5% 10% 20% 10%;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(142, 197, 255,0.2);
+}
+
+#fromText{
+    padding-left: 70%;
+}
+
