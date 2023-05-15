@@ -42,11 +42,6 @@ input{
 
 }
 
-#specific-verse{
-    display: none;
-}
-
-
 label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -86,19 +81,6 @@ label{
 
 @media (max-width: 768px) {
 
-    #getVerse-btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: auto;   
-        margin: 10px;
-    }    
-     #getbtns{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        margin-top: 20%;
-     }
     #container{
         display: flex;
         flex-direction: column;
